@@ -4,47 +4,63 @@ import { NavLink } from 'react-router-dom';
 
 const StyledNavbar = () => {
   return (
-    <nav className="navbar">
-      <NavLink
-        to="/"
-        style={({ isActive }) => ({ color: isActive ? 'blue' : 'grey' })}
-      >
-        Home
-      </NavLink>
-
-      <NavLink
-        to="/about"
-        style={({ isActive }) => ({ color: isActive ? 'blue' : 'grey' })}
-      >
-        About
-      </NavLink>
-
-      <NavLink
-        to="/blog"
-        style={({ isActive }) => ({ color: isActive ? 'blue' : 'grey' })}
-      >
-        Blog
-      </NavLink>
-      <NavLink
-        to="/teachingprogram"
-        style={({ isActive }) => ({ color: isActive ? 'blue' : 'grey' })}
-      >
-        Teaching Program
-      </NavLink>
-
-      <NavLink
-        to="/contacts"
-        style={({ isActive }) => ({ color: isActive ? 'blue' : 'grey' })}
-      >
-        Contacts
-      </NavLink>
-
-      <NavLink
-        to="/more"
-        style={({ isActive }) => ({ color: isActive ? 'blue' : 'grey' })}
-      >
-        More
-      </NavLink>
+    <nav>
+      <ul className="navbar">
+        <li>
+          <NavLink
+            to="/"
+            style={({ isActive }) => ({ color: isActive ? 'blue' : 'black' })}
+            className="navbar-item"
+          >
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/about"
+            style={({ isActive }) => ({ color: isActive ? 'blue' : 'black' })}
+            className="navbar-item"
+          >
+            About
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/blog"
+            style={({ isActive }) => ({ color: isActive ? 'blue' : 'black' })}
+            className="navbar-item"
+          >
+            Blog
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/teachingprogram"
+            style={({ isActive }) => ({ color: isActive ? 'blue' : 'black' })}
+            className="navbar-item"
+          >
+            Teaching Program
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/contacts"
+            style={({ isActive }) => ({ color: isActive ? 'blue' : 'black' })}
+            className="navbar-item"
+          >
+            Contacts
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/more"
+            style={({ isActive }) => ({ color: isActive ? 'blue' : 'black' })}
+            className="navbar-item"
+          >
+            More
+          </NavLink>
+        </li>
+      </ul>
     </nav>
   );
 };
