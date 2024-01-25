@@ -24,3 +24,15 @@ ul {
   flex-direction: column;
   justify-content: space-around;
 }
+
+.layout {
+  display: flex;
+}
+
+.navbar {
+  flex: 1;
+}
+
+.content {
+  flex: 3;
+}

@@ -25,7 +25,6 @@ const StyledNavbar = () => {
       >
         Blog
       </NavLink>
-
       <NavLink
         to="/teachingprogram"
         style={({ isActive }) => ({ color: isActive ? 'blue' : 'grey' })}
