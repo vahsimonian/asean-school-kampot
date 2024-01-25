@@ -1,0 +1,17 @@
+import '../App.css';
+import React from 'react';
+
+const Home = () => {
+  return (
+    <div>
+      <h1>Welcome to Our School</h1>
+      <p>
+        This is a brief introduction to our school. Here, you can find
+        information about our values, mission, and educational programs.
+      </p>
+      {/* Add a carousel or image gallery here */}
+    </div>
+  );
+};
+
+export default Home;
