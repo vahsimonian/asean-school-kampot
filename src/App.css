@@ -16,7 +16,7 @@ ul {
   height: 100%;
 }
 
-ul {
+.navbar {
   height: 100svh;
   width: 100vw;
   background-color: lightgrey;
