@@ -1,7 +1,7 @@
 import '../App.css';
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import myPhoto from '../assets/logo.jpg';
+import schoolLogo from '../assets/logo.jpg';
 
 const StyledNavbar = () => {
   return (
@@ -87,7 +87,11 @@ const StyledNavbar = () => {
         target="_blank"
       >
         <div className="logo">
-          <img src={myPhoto} alt="Asean-school-logo" className="school-logo" />
+          <img
+            src={schoolLogo}
+            alt="Asean-school-logo"
+            className="school-logo"
+          />
           <p>ASEAN School</p>
         </div>
       </Link>
