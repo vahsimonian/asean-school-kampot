@@ -2,13 +2,13 @@ import './App.css';
 import './index.css';
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './components/Home';
-import About from './components/About';
-import Blog from './components/Blog';
-import TeachingProgram from './components/TeachingProgram';
-import Contacts from './components/Contacts';
-import More from './components/MoreInfo';
-import SharedLayout from './pages/SharedLayout';
+import Home from './pages/Home';
+import About from './pages/About';
+import Blog from './pages/Blog';
+import TeachingProgram from './pages/TeachingProgram';
+import Contacts from './pages/Contacts';
+import More from './pages/MoreInfo';
+import SharedLayout from './components/SharedLayout';
 
 function App() {
   return (
