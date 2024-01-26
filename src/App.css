@@ -129,4 +129,5 @@ html {
   display: flex;
   flex-direction: column;
   top: 1rem;
+  gap: 15px;
 }
