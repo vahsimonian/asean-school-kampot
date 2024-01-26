@@ -39,7 +39,7 @@ html {
 
   display: grid;
   gap: 3rem;
-  padding-block: 3rem;
+  padding-block: 2rem;
   font-size: 1.4rem;
   font-weight: 200;
 }
@@ -55,15 +55,16 @@ html {
   color: white;
   text-decoration: none;
 }
-/*
+
 .navbar-item {
+  /* transform: translateY(40%); */
   transform: translateY(50%);
   transition: transform 0.3s ease-out;
 }
 
 .navbar-item.active {
-  transform: translateY(35%);
-} */
+  transform: translateX(0);
+}
 
 .navbar-item.active {
   background-color: var(--body-bg);
