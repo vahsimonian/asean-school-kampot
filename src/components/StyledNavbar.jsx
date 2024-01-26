@@ -1,7 +1,7 @@
 import '../App.css';
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import aseanSchoolLogo from '../assets/logo.jpg';
+import myPhoto from '../assets/vah.png';
 
 const StyledNavbar = () => {
   return (
@@ -12,7 +12,7 @@ const StyledNavbar = () => {
             aria-current="page"
             to="/"
             style={({ isActive }) => ({
-              color: isActive ? 'rgb(162, 82, 60)' : '#fff',
+              color: isActive ? '#fff' : 'rgb(13, 27, 74)',
             })}
             className="navbar-item"
           >
@@ -24,7 +24,7 @@ const StyledNavbar = () => {
             aria-current="page"
             to="/about"
             style={({ isActive }) => ({
-              color: isActive ? 'rgb(162, 82, 60)' : '#fff',
+              color: isActive ? '#fff' : 'rgb(13, 27, 74)',
             })}
             className="navbar-item"
           >
@@ -36,7 +36,7 @@ const StyledNavbar = () => {
             aria-current="page"
             to="/blog"
             style={({ isActive }) => ({
-              color: isActive ? 'rgb(162, 82, 60)' : '#fff',
+              color: isActive ? '#fff' : 'rgb(13, 27, 74)',
             })}
             className="navbar-item"
           >
@@ -48,7 +48,7 @@ const StyledNavbar = () => {
             aria-current="page"
             to="/teachingprogram"
             style={({ isActive }) => ({
-              color: isActive ? 'rgb(162, 82, 60)' : '#fff',
+              color: isActive ? '#fff' : 'rgb(13, 27, 74)',
             })}
             className="navbar-item"
           >
@@ -60,7 +60,7 @@ const StyledNavbar = () => {
             aria-current="page"
             to="/contacts"
             style={({ isActive }) => ({
-              color: isActive ? 'rgb(162, 82, 60)' : '#fff',
+              color: isActive ? '#fff' : 'rgb(13, 27, 74)',
             })}
             className="navbar-item"
           >
@@ -72,7 +72,7 @@ const StyledNavbar = () => {
             aria-current="page"
             to="/more"
             style={({ isActive }) => ({
-              color: isActive ? 'rgb(162, 82, 60)' : '#fff',
+              color: isActive ? '#fff' : 'rgb(13, 27, 74)',
             })}
             className="navbar-item"
           >
@@ -87,12 +87,8 @@ const StyledNavbar = () => {
         target="_blank"
       >
         <div className="logo">
-          <img
-            src={aseanSchoolLogo}
-            alt="Asean-school-logo"
-            className="school-logo"
-          />
-          <p>Asean School</p>
+          <img src={myPhoto} alt="Asean-school-logo" className="school-logo" />
+          <p>Vah Simonian</p>
         </div>
       </Link>
     </nav>
