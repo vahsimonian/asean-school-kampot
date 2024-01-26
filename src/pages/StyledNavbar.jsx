@@ -5,11 +5,14 @@ import { NavLink } from 'react-router-dom';
 const StyledNavbar = () => {
   return (
     <nav>
-      <ul className="navbar">
+      <ul className="nav-list">
         <li>
           <NavLink
+            aria-current="page"
             to="/"
-            style={({ isActive }) => ({ color: isActive ? 'blue' : 'black' })}
+            style={({ isActive }) => ({
+              color: isActive ? 'rgb(162, 82, 60)' : '#fff',
+            })}
             className="navbar-item"
           >
             Home
@@ -17,8 +20,11 @@ const StyledNavbar = () => {
         </li>
         <li>
           <NavLink
+            aria-current="page"
             to="/about"
-            style={({ isActive }) => ({ color: isActive ? 'blue' : 'black' })}
+            style={({ isActive }) => ({
+              color: isActive ? 'rgb(162, 82, 60)' : '#fff',
+            })}
             className="navbar-item"
           >
             About
@@ -26,8 +32,11 @@ const StyledNavbar = () => {
         </li>
         <li>
           <NavLink
+            aria-current="page"
             to="/blog"
-            style={({ isActive }) => ({ color: isActive ? 'blue' : 'black' })}
+            style={({ isActive }) => ({
+              color: isActive ? 'rgb(162, 82, 60)' : '#fff',
+            })}
             className="navbar-item"
           >
             Blog
@@ -35,8 +44,11 @@ const StyledNavbar = () => {
         </li>
         <li>
           <NavLink
+            aria-current="page"
             to="/teachingprogram"
-            style={({ isActive }) => ({ color: isActive ? 'blue' : 'black' })}
+            style={({ isActive }) => ({
+              color: isActive ? 'rgb(162, 82, 60)' : '#fff',
+            })}
             className="navbar-item"
           >
             Teaching Program
@@ -44,8 +56,11 @@ const StyledNavbar = () => {
         </li>
         <li>
           <NavLink
+            aria-current="page"
             to="/contacts"
-            style={({ isActive }) => ({ color: isActive ? 'blue' : 'black' })}
+            style={({ isActive }) => ({
+              color: isActive ? 'rgb(162, 82, 60)' : '#fff',
+            })}
             className="navbar-item"
           >
             Contacts
@@ -53,8 +68,11 @@ const StyledNavbar = () => {
         </li>
         <li>
           <NavLink
+            aria-current="page"
             to="/more"
-            style={({ isActive }) => ({ color: isActive ? 'blue' : 'black' })}
+            style={({ isActive }) => ({
+              color: isActive ? 'rgb(162, 82, 60)' : '#fff',
+            })}
             className="navbar-item"
           >
             More

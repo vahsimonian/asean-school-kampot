@@ -12,22 +12,80 @@
 html {
   font-family: system-ui;
 }
-ul {
-  list-style-type: none;
-}
 
 .layout {
-  /* height: 100svh; */
   margin: 0;
   font-size: 1.25rem;
-  background: var(--body-bg);
-  color: black;
+  background-color: var(--body-bg);
+  color: var(--nav-bg);
   display: grid;
   grid-template-columns: 20rem 1fr;
-  gap: 2rem;
+  gap: 4rem;
+  min-height: 100svh;
 }
 
 .styled-navbar {
-  height: 100svh;
+  overflow: auto;
+  position: sticky;
+  top: 0;
+  max-height: 100svh;
   background-color: var(--nav-bg);
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: grid;
+  gap: 3rem;
+  padding-block: 2rem;
+  font-size: 1.8rem;
+  font-weight: 200;
+}
+
+.nav-list li {
+  margin-left: 1rem;
+  padding-block: 0.25rem;
+}
+
+.navbar-item.active {
+  background-color: var(--body-bg);
+  position: relative;
+}
+
+.content {
+  z-index: 1;
+}
+
+.navbar-item.active::before,
+.navbar-item.active::after {
+  --border-radius: 2rem;
+
+  content: '';
+  position: absolute;
+  width: var(--border-radius);
+  height: var(--border-radius);
+  right: 0;
+  background-color: var(--nav-bg);
+}
+
+.navbar-item.active::before {
+  top: calc(var(--border-radius) * -1);
+  border-radius: 0 0 100vw 0;
+  box-shadow: 10px 10px 0 10px var(--body-bg);
+}
+
+.navbar-item.active::after {
+  bottom: calc(var(--border-radius) * -1);
+  border-radius: 0 100vw 0 0;
+  box-shadow: 10px -10px 0 10px var(--body-bg);
+}
+
+.navbar-item {
+  border-radius: 100vw 0 0 100vw;
+  display: block;
+  padding: 0.75rem 1.75rem;
+  color: white;
+  text-decoration: none;
 }
