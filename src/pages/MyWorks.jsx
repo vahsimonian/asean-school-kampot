@@ -1,9 +1,9 @@
 import '../App.css';
 import React from 'react';
 
-const Blog = () => {
+const MyWorks = () => {
   return (
-    <div className="blog-page">
+    <div className="websites-page">
       <h1>School Blog</h1>
       <p>Read about our latest events, activities, and educational insights.</p>
       {/* Implement blog posts listing here */}
@@ -11,4 +11,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default MyWorks;

@@ -34,13 +34,13 @@ const StyledNavbar = () => {
         <li>
           <NavLink
             aria-current="page"
-            to="/blog"
+            to="/my-works"
             style={({ isActive }) => ({
               color: isActive ? 'rgb(13, 27, 74)' : '#fff',
             })}
             className="navbar-item"
           >
-            Blog
+            My Works
           </NavLink>
         </li>
         <li>

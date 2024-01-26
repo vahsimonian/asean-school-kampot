@@ -8,7 +8,6 @@ const Home = () => {
         This is a brief introduction to our school. Here, you can find
         information about our values, mission, and educational programs.
       </p>
-      {/* Add a carousel or image gallery here */}
     </div>
   );
 };

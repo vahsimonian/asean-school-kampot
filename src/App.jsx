@@ -4,7 +4,7 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
-import Blog from './pages/Blog';
+import MyWorks from './pages/MyWorks';
 import TeachingProgram from './pages/TeachingProgram';
 import Contacts from './pages/Contacts';
 import More from './pages/MoreInfo';
@@ -17,7 +17,7 @@ function App() {
         <Route path="/" element={<SharedLayout />}>
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/my-works" element={<MyWorks />} />
           <Route path="/teachingprogram" element={<TeachingProgram />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/more" element={<More />} />
