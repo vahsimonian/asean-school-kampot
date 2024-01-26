@@ -19,7 +19,7 @@ html {
   background-color: var(--body-bg);
   color: var(--nav-bg);
   display: grid;
-  grid-template-columns: 20rem 1fr;
+  grid-template-columns: 15rem 1fr;
   gap: 4rem;
   min-height: 100svh;
 }
@@ -57,8 +57,7 @@ html {
 }
 
 .navbar-item {
-  /* transform: translateY(40%); */
-  transform: translateY(50%);
+  transform: translateY(10%);
   transition: transform 0.3s ease-out;
 }
 

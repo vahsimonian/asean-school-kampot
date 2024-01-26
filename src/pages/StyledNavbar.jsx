@@ -1,6 +1,7 @@
 import '../App.css';
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import aseanSchoolLogo from '../assets/logo.jpg';
 
 const StyledNavbar = () => {
   return (
@@ -51,7 +52,7 @@ const StyledNavbar = () => {
             })}
             className="navbar-item"
           >
-            Teaching Program
+            Curriculum
           </NavLink>
         </li>
         <li>
@@ -75,10 +76,11 @@ const StyledNavbar = () => {
             })}
             className="navbar-item"
           >
-            More
+            More...
           </NavLink>
         </li>
       </ul>
+      <img src={aseanSchoolLogo} alt="" />
     </nav>
   );
 };
