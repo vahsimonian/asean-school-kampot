@@ -94,3 +94,21 @@ html {
   border-radius: 0 100vw 0 0;
   box-shadow: 10px -15px 0 10px var(--body-bg);
 }
+
+.logo {
+  display: flex;
+  color: #fff;
+  gap: 30px;
+  align-items: center;
+  position: absolute;
+  bottom: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.school-logo {
+  left: 1rem;
+  width: 50px;
+  position: relative;
+  border-radius: 50%;
+}

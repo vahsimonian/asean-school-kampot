@@ -1,6 +1,6 @@
 import '../App.css';
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import aseanSchoolLogo from '../assets/logo.jpg';
 
 const StyledNavbar = () => {
@@ -80,7 +80,21 @@ const StyledNavbar = () => {
           </NavLink>
         </li>
       </ul>
-      <img src={aseanSchoolLogo} alt="" />
+      <Link
+        to={
+          'https://web.facebook.com/profile.php?id=100054397844962&sk=mentions'
+        }
+        target="_blank"
+      >
+        <div className="logo">
+          <img
+            src={aseanSchoolLogo}
+            alt="Asean-school-logo"
+            className="school-logo"
+          />
+          <p>Asean School</p>
+        </div>
+      </Link>
     </nav>
   );
 };
