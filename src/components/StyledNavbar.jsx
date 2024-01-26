@@ -1,7 +1,7 @@
 import '../App.css';
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import myPhoto from '../assets/vah.png';
+import myPhoto from '../assets/logo.jpg';
 
 const StyledNavbar = () => {
   return (
@@ -12,7 +12,7 @@ const StyledNavbar = () => {
             aria-current="page"
             to="/"
             style={({ isActive }) => ({
-              color: isActive ? '#fff' : 'rgb(13, 27, 74)',
+              color: isActive ? 'rgb(13, 27, 74)' : '#fff',
             })}
             className="navbar-item"
           >
@@ -24,7 +24,7 @@ const StyledNavbar = () => {
             aria-current="page"
             to="/about"
             style={({ isActive }) => ({
-              color: isActive ? '#fff' : 'rgb(13, 27, 74)',
+              color: isActive ? 'rgb(13, 27, 74)' : '#fff',
             })}
             className="navbar-item"
           >
@@ -36,7 +36,7 @@ const StyledNavbar = () => {
             aria-current="page"
             to="/blog"
             style={({ isActive }) => ({
-              color: isActive ? '#fff' : 'rgb(13, 27, 74)',
+              color: isActive ? 'rgb(13, 27, 74)' : '#fff',
             })}
             className="navbar-item"
           >
@@ -48,7 +48,7 @@ const StyledNavbar = () => {
             aria-current="page"
             to="/teachingprogram"
             style={({ isActive }) => ({
-              color: isActive ? '#fff' : 'rgb(13, 27, 74)',
+              color: isActive ? 'rgb(13, 27, 74)' : '#fff',
             })}
             className="navbar-item"
           >
@@ -60,11 +60,11 @@ const StyledNavbar = () => {
             aria-current="page"
             to="/contacts"
             style={({ isActive }) => ({
-              color: isActive ? '#fff' : 'rgb(13, 27, 74)',
+              color: isActive ? 'rgb(13, 27, 74)' : '#fff',
             })}
             className="navbar-item"
           >
-            Contacts
+            Contactss
           </NavLink>
         </li>
         <li>
@@ -72,7 +72,7 @@ const StyledNavbar = () => {
             aria-current="page"
             to="/more"
             style={({ isActive }) => ({
-              color: isActive ? '#fff' : 'rgb(13, 27, 74)',
+              color: isActive ? 'rgb(13, 27, 74)' : '#fff',
             })}
             className="navbar-item"
           >
@@ -88,7 +88,7 @@ const StyledNavbar = () => {
       >
         <div className="logo">
           <img src={myPhoto} alt="Asean-school-logo" className="school-logo" />
-          <p>Vah Simonian</p>
+          <p>ASEAN School</p>
         </div>
       </Link>
     </nav>
