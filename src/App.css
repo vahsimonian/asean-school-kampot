@@ -1,6 +1,8 @@
 :root {
-  --body-bg: rgb(236, 230, 230);
-  --nav-bg: rgb(236, 78, 78);
+  --body-bg: rgb(13, 27, 74);
+  --body-bg2: rgb(68, 0, 80);
+  --nav-bg: rgb(126, 126, 126);
+  --text-bg: rgb(213, 213, 213);
 }
 
 * {
@@ -16,11 +18,15 @@ html {
 .layout {
   margin: 0;
   font-size: 1.25rem;
-  background-color: var(--body-bg);
-  color: var(--nav-bg);
+  background: linear-gradient(
+    to right,
+    var(--body-bg) 20%,
+    /* rgb(13, 27, 74) 20%, */ var(--body-bg2) 80%
+  );
+  color: var(--text-bg);
   display: grid;
-  grid-template-columns: 15rem 1fr;
-  gap: 4rem;
+  grid-template-columns: 20rem 1fr;
+  gap: 5rem;
   min-height: 100svh;
 }
 
@@ -52,7 +58,7 @@ html {
   border-radius: 100vw 0 0 100vw;
   display: block;
   padding: 0.75rem 1.75rem;
-  color: white;
+  color: var(--text-bg) !important;
   text-decoration: none;
 }
 
@@ -97,13 +103,13 @@ html {
 
 .logo {
   display: flex;
-  color: #fff;
+  color: #000;
   gap: 30px;
   align-items: center;
   position: absolute;
   bottom: 1.5rem;
   font-size: 1.2rem;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .school-logo {
@@ -111,4 +117,10 @@ html {
   width: 50px;
   position: relative;
   border-radius: 50%;
+}
+
+.content {
+  bottom: -15px;
+  position: relative;
+  min-height: 100svh;
 }
