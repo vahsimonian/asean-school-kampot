@@ -1,6 +1,6 @@
 :root {
   --body-bg: rgb(13, 27, 74);
-  --body-bg2: rgb(68, 0, 80);
+  --body-bg2: rgb(76, 26, 110);
   --nav-bg: rgb(126, 126, 126);
   --text-bg: rgb(213, 213, 213);
 }
@@ -122,4 +122,11 @@ html {
 .content {
   position: relative;
   min-height: 100svh;
+}
+
+.home-page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 1rem;
 }
