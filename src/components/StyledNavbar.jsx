@@ -64,7 +64,7 @@ const StyledNavbar = () => {
             })}
             className="navbar-item"
           >
-            Contactss
+            Contacts
           </NavLink>
         </li>
         <li>
