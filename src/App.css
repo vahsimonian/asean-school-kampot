@@ -1,6 +1,6 @@
 :root {
-  --body-bg: rgb(236, 230, 230);
-  --nav-bg: rgb(236, 78, 78);
+  --body-bg: rgb(237, 227, 227);
+  --nav-bg: rgb(246, 71, 71);
 }
 
 * {
@@ -19,8 +19,8 @@ html {
   background-color: var(--body-bg);
   color: var(--nav-bg);
   display: grid;
-  grid-template-columns: 15rem 1fr;
-  gap: 4rem;
+  grid-template-columns: 20rem 1fr;
+  gap: 5rem;
   min-height: 100svh;
 }
 
@@ -111,4 +111,16 @@ html {
   width: 50px;
   position: relative;
   border-radius: 50%;
+}
+
+.content {
+  position: relative;
+  min-height: 100svh;
+}
+
+.home-page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 1rem;
 }
