@@ -132,3 +132,19 @@ html {
   font-size: 2rem;
   font-weight: 400;
 }
+
+.send-email {
+  background-color: var(--nav-bg);
+  padding: 7.5px 15px;
+  position: absolute;
+  margin-top: 15px;
+  text-decoration: none;
+  color: var(--body-bg);
+  border-radius: 10px;
+}
+
+.contacts-titles {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

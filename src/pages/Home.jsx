@@ -10,6 +10,9 @@ const Home = () => {
         This is a brief introduction to our school. Here, you can find
         information about our values, mission, and educational programs.
       </p>
+      <a href="learnenglish.com" target="_blank">
+        learnenglish.com
+      </a>
     </div>
   );
 };
