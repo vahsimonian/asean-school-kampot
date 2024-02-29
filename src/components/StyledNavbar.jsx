@@ -31,7 +31,7 @@ const StyledNavbar = () => {
             About
           </NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink
             aria-current="page"
             to="/my-works"
@@ -42,7 +42,7 @@ const StyledNavbar = () => {
           >
             My Works
           </NavLink>
-        </li>
+        </li> */}
         <li>
           <NavLink
             aria-current="page"
