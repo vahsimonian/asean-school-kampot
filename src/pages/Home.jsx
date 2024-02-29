@@ -1,5 +1,6 @@
 import React from 'react';
 import homeImage from '../assets/home.jpg';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -10,9 +11,9 @@ const Home = () => {
         This is a brief introduction to our school. Here, you can find
         information about our values, mission, and educational programs.
       </p>
-      <a href="learnenglish.com" target="_blank">
+      <Link to="https://learnenglish.com" target="_blank">
         learnenglish.com
-      </a>
+      </Link>
     </div>
   );
 };
